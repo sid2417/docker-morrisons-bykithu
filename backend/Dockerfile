@@ -18,3 +18,7 @@ CMD ["node","index.js"]
 # Java	java -jar app.jar	CMD ["java","-jar","app.jar"]
 # Nginx	nginx -g "daemon off;"	CMD ["nginx","-g","daemon off;"]
 
+#This below commands are to install debian mysql client to check db connected to backend or not
+# ( apt update )
+
+# ( apt install -y default-mysql-client )
