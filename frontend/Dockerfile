@@ -8,3 +8,4 @@ COPY code /usr/share/nginx/html/
 
 ## in this containerization nginx frontend code have some issues regarding  nginx.conf and default.conf
 ## /etc/nginx
+## ( nginx.conf ) ---> this is main file
