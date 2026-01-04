@@ -10,3 +10,11 @@ COPY *.json .
 RUN npm install
 CMD ["node","index.js"]
 
+
+# Quick examples for other apps
+# App Type	Manual Command	Docker CMD
+# Node.js	node index.js	CMD ["node","index.js"]
+# Python	python app.py	CMD ["python","app.py"]
+# Java	java -jar app.jar	CMD ["java","-jar","app.jar"]
+# Nginx	nginx -g "daemon off;"	CMD ["nginx","-g","daemon off;"]
+
